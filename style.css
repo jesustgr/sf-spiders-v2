@@ -3,7 +3,7 @@ body,h1,h2,h3,h4,h5 {
 }
 body {
     font-size:16px;
-    background-color: #222;
+    /* background-color: #111; */
 }
 
 .w3-full img{
@@ -11,7 +11,8 @@ body {
     margin-top:16px;
     opacity:0.8;
     cursor:pointer;
-    filter: grayscale(25%) contrast(125%) brightness(75%);
+    border-radius: 1px;
+    filter: grayscale(50%);
 }
 .w3-full img:hover{
     opacity:1
