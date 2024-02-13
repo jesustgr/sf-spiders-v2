@@ -15,10 +15,10 @@
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
         <div class="w3-container">
             <h1 class="w3-center w3-jumbo"><i class="fa-solid fa-spider"></i></h1>
-            <h3 class="w3-padding-32"><b>SAN FRANCISCO<br>SPIDERS</b></h3>
+            <h3 class="w3-center w3-padding-32"><b>SAN FRANCISCO<br>SPIDERS</b></h3>
         </div>
         <div class="w3-bar-block">
-            <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+            <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
             <a href="#our-mission" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Our Mission</a> 
             <a href="#meet-the-coaches" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Meet The Coaches</a> 
             <a href="#tournament-wins" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tournament Wins</a> 
@@ -40,7 +40,7 @@
     <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
         <!-- Header -->
-        <div class="w3-container" style="margin-top:80px" id="showcase">
+        <div class="w3-container" style="margin-top:80px" id="home">
             <h1 class="w3-jumbo"><b>SAN FRANCISCO SPIDERS</b></h1>
             <h1 class="w3-xxxlarge w3-text-pink"><b>BASKETBALL ORGANIZATION</b></h1>
             <hr style="width:50px;border:5px solid black" class="w3-round">
@@ -49,18 +49,42 @@
         <!-- Photo grid (modal) -->
         <div class="w3-row-padding">
             <div class="w3-full">
+                <img src="assets/hardwood-showdown.PNG" style="width:100%" onclick="onClick(this)" alt="2023 HARDWOOD SHOWDOWN CHAMPIONS">
                 <img src="assets/fall-tip-off.jpg" style="width:100%" onclick="onClick(this)" alt="2023 FALL TIP-OFF CHAMPIONS">
                 <img src="assets/hardwood-showdown.PNG" style="width:100%" onclick="onClick(this)" alt="2023 HARDWOOD SHOWDOWN CHAMPIONS">
                 <img src="assets/summer-jam.jpg" style="width:100%" onclick="onClick(this)" alt="2023 SUMMER JAM CHAMPIONS">
             </div>
         </div>
-    </div>
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-            <img id="img01" class="w3-image">
-            <p id="caption" class="w3-opacity w3-large"></p>
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+        </div>
+
+        <!-- Our Mission -->
+        <div class="w3-container" id="our-mission" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-pink"><b>OUR MISSION</b></h1>
+            <hr style="width:50px;border:5px solid black" class="w3-round">
+            <p>At SF Spiders, we stand as a beacon of integrity and opportunity in the world of youth basketball. Our mission is clear, driven by a 
+                deep commitment to provide accessible, high-quality coaching and mentorship, ensuring that every child's journey in the sport is marked 
+                by growth, development, and empowerment.</p>
+            <p>We were born out of a desire to rectify the injustice of programs that prioritize profits over the growth and well-being of young 
+                athletes. Too often, families are left disheartened after investing their hard-earned money into programs that fall short on their 
+                promises. We pledge to be different.</p>
+            <p>At SF Spiders, we take pride in a revolutionary approach: no hidden membership fees, no exorbitant uniform costs. We believe in 
+                transparency and affordability, with players only paying when they step onto the court for tournaments. Our commitment is to focus on 
+                what truly matters - the development of young athletes.</p>
+            <p>Our coaches are not just instructors; they are mentors and role models. We are devoted to nurturing the full potential of our players, 
+                on and off the court. We provide the attention and guidance that every child deserves, ensuring that their basketball journey is a 
+                pathway to personal growth, skill enhancement, and resilience.</p>
+            <p>We invite you to join the SF Spiders family, where your child's dreams are our top priority. Together, we will build a brighter future, 
+                one where the love of basketball, dedication, and fairness define the essence of our program. With the SF Spiders, we create a place 
+                where passion, talent, and character unite to weave a web of success for every player.</p>
+            <p>Join us in redefining the world of AAU basketball – a world where young athletes thrive, families find value, and the love of the game 
+                is fostered with sincerity. Together, we are the SF Spiders, and together, we will succeed.</p>
         </div>
     </div>
 
