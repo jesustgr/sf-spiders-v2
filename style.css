@@ -1,9 +1,13 @@
 body,h1,h2,h3,h4,h5 {
-    font-family: "Poppins", sans-serif
+    font-family: "Roboto", sans-serif
 }
 body {
     font-size:16px;
     /* background-color: #111; */
+}
+
+.w3-bar-item:hover {
+    border-radius: 10px;
 }
 
 .w3-full img{
@@ -11,8 +15,8 @@ body {
     margin-top:16px;
     opacity:0.8;
     cursor:pointer;
-    border-radius: 1px;
     filter: grayscale(50%);
+    border-radius: 10px;
 }
 .w3-full img:hover{
     opacity:1
